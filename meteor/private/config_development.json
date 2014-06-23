@@ -1,0 +1,8 @@
+{
+    "public": {
+    },
+
+    "some_namespace": {
+        "some_setting": true
+    }
+}

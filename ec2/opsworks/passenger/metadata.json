@@ -1,0 +1,28 @@
+{
+    "name": "passenger",
+    "description": "Installs passenger via rubygems. Explicity uses system-wide RVM if present.",
+    "long_description": "",
+    "license": "MIT",
+    "platforms": {
+    },
+    "dependencies": {
+    },
+    "recommendations": {
+    },
+    "suggestions": {
+    },
+    "conflicting": {
+    },
+    "providing": {
+    },
+    "replacing": {
+    },
+    "attributes": {
+    },
+    "groupings": {
+    },
+    "recipes": {
+        "passenger::install": "Install the passenger gem"
+    },
+    "version": "0.0.1"
+}

@@ -1,0 +1,30 @@
+{
+    "mongodb": {
+        "dbpath": "/var/db",
+
+        "cluster_name": "rs01",
+        "replicaset_name": "rs01",
+        "oplog_size": 128,
+
+        "smallfiles": true,
+        "enable_rest": false,
+
+        "auto_configure": {
+            "replicaset": true
+        },
+        "mms_agent": {
+            "api_key": "123abc"
+        }
+    },
+
+    "meteor_app": {
+        "port": 3000,
+        "environment": "development",
+        "mongo": {
+            "port": "27017",
+            "mongo_replica_layer": "db",
+            "mongo_replica_options": "replicaSet=rs01&readPreference=primaryPreferred&w=majority"
+        }
+    }
+
+}

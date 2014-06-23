@@ -1,0 +1,13 @@
+{
+  "packages": {
+    "fast-render": {},
+    "iron-router": {},
+    "roles": {},
+    "moment": {},
+    "font-awesome": {},
+    "npm": {},
+    "profile-online": {},
+    "kadira": {},
+    "page-js-ie-support": {}
+  }
+}

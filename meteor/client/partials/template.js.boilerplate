@@ -1,0 +1,35 @@
+var tmpl = "dashboard";
+
+/**
+ * Meteor Hooks
+ */
+Template[tmpl].created = function() {};
+Template[tmpl].destroyed = function() {};
+Template[tmpl].rendered = function() {
+    // $(document).ready() stuff here..
+};
+
+
+/**
+ * Data Bindings
+ */
+Template[tmpl].helpers = {
+
+    some_value: function(){
+        return Session.get('some_value')
+    }
+
+};
+
+
+/**
+* UI Events
+*/
+Template[tmpl].events({
+
+    'click .test': function(event) {
+        var e = event.currentTarget;
+        var _id = $(e).data('id'); // get id from dom element
+    }
+
+})

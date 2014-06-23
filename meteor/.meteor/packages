@@ -1,0 +1,29 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+standard-app-packages
+underscore
+page-js-ie-support
+
+# Mylar
+principal
+accounts-base
+accounts-password
+accounts-idp
+#search
+
+# APP
+npm
+fast-render
+iron-router
+roles
+jquery
+moment
+profile-online
+kadira
+
+# UI
+bootstrap
+font-awesome

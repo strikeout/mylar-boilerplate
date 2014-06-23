@@ -1,0 +1,13 @@
+.meteor
+*/.meteor
+/fast-render
+/iron-router
+/blaze-layout
+/roles
+/moment
+/font-awesome
+/npm
+/profile-online
+/kadira
+/page-js-ie-support
+/HTML5-History-API
