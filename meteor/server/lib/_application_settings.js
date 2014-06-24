@@ -1,4 +1,4 @@
-// get NODE_ENV or default to "development"
+// get NODE_ENV or default to "production"
 var env = process.env.NODE_ENV || "production"
 var config_file = 'config_' + env + '.json'
 
